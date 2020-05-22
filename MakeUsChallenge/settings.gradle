@@ -1,0 +1,2 @@
+rootProject.name='MakeUs Challenge'
+include ':app'

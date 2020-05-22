@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "511413380083",
+    "firebase_url": "https://makeuschallenge.firebaseio.com",
+    "project_id": "makeuschallenge",
+    "storage_bucket": "makeuschallenge.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:511413380083:android:2d016f60cb3af98eb6e886",
+        "android_client_info": {
+          "package_name": "com.example.makeuschallenge"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "511413380083-m885l815m7t52qi2qije1i3368qsem6e.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDhsUqxo7V_82zg7xe5H_8MnVcip9y86SM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "511413380083-m885l815m7t52qi2qije1i3368qsem6e.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
