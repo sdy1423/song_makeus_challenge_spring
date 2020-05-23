@@ -13,7 +13,12 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         android:usesCleartextTraffic="true">
-        <activity android:name=".src.main.looktext.LookTextActivity"></activity>
+        <activity android:name=".src.video.VideoActivity"></activity>
+        <activity android:name=".src.pick.PickActivity" />
+        <activity android:name=".src.complete.CompleteActivity" />
+        <activity android:name=".src.main.sugang.SugangActivity" />
+        <activity android:name=".src.main.first.FirstActivity" />
+        <activity android:name=".src.main.looktext.LookTextActivity" />
         <activity android:name=".src.main.chatting.ChattingActivity" />
         <activity android:name=".src.login.select.signup.SignUpActivity" />
         <activity android:name=".src.login.select.SelectActivity" />

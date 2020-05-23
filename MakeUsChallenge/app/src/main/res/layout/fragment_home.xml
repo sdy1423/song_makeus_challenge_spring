@@ -1,14 +1,165 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     tools:context=".src.main.home.HomeFragment">
 
-    <!-- TODO: Update blank fragment layout -->
-    <TextView
+    <LinearLayout
+        android:orientation="vertical"
+        android:background="@color/charcoal_grey"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="@string/hello_blank_fragment" />
+        android:paddingLeft="26.7dp"
+        android:paddingRight="26.7dp"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_marginLeft="26.7dp"
+            android:layout_marginTop="13.3dp"
+            android:textSize="24dp"
+            android:text="추천"
+            android:textColor="#ffffff"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
 
-</FrameLayout>
+
+        <TextView
+            android:layout_marginTop="19dp"
+            android:textColor="#ffffff"
+            android:textSize="18dp"
+            android:text="인기 있는 카테고리"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="4"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <ImageView
+                    android:layout_gravity="center_horizontal"
+                    android:src="@drawable/icon_koreananan"
+                    android:layout_width="43.3dp"
+                    android:layout_height="43.3dp"/>
+                <TextView
+                    android:layout_gravity="center_horizontal|center_vertical"
+                    android:text="한국사"
+                    android:textSize="10.7dp"
+                    android:textColor="#ffffff"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_marginLeft="35.3dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <ImageView
+                    android:layout_gravity="center_horizontal"
+                    android:src="@drawable/icon_2_ndlanguage"
+                    android:layout_width="43.3dp"
+                    android:layout_height="43.3dp"/>
+                <TextView
+                    android:layout_gravity="center_horizontal|center_vertical"
+                    android:text="제2외국어"
+                    android:textSize="10.7dp"
+                    android:textColor="#ffffff"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_marginLeft="35.3dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <ImageView
+                    android:layout_gravity="center_horizontal"
+                    android:src="@drawable/icon_korean"
+                    android:layout_width="43.3dp"
+                    android:layout_height="43.3dp"/>
+                <TextView
+                    android:layout_gravity="center_horizontal|center_vertical"
+                    android:text="국어"
+                    android:textSize="10.7dp"
+                    android:textColor="#ffffff"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_marginLeft="35.3dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <ImageView
+                    android:layout_gravity="center_horizontal"
+                    android:src="@drawable/icon_englishh"
+                    android:layout_width="43.3dp"
+                    android:layout_height="43.3dp"/>
+                <TextView
+                    android:layout_gravity="center_horizontal|center_vertical"
+                    android:text="영어"
+                    android:textSize="10.7dp"
+                    android:textColor="#ffffff"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_marginTop="20dp"
+            android:textSize="18dp"
+            android:textColor="#ffffff"
+            android:text="지금 뜨는 강의"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+
+        <ImageView
+            android:id="@+id/banner1"
+            android:src="@drawable/banner_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <ImageView
+            android:id="@+id/banner2"
+            android:src="@drawable/banner_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <ImageView
+            android:id="@+id/banner3"
+            android:src="@drawable/banner_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <ImageView
+            android:id="@+id/banner4"
+            android:src="@drawable/banner_4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <ImageView
+            android:id="@+id/banner5"
+            android:src="@drawable/banner_5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <ImageView
+            android:id="@+id/banner6"
+            android:src="@drawable/banner_6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+</ScrollView>

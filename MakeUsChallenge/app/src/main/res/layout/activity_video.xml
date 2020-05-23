@@ -5,15 +5,10 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:background="#3a3f45"
-    tools:context=".src.login.select.SelectActivity">
-
-
-
-    <ImageView
-        android:id="@+id/pick"
-        android:src="@drawable/pick"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"/>
-
+    tools:context=".src.video.VideoActivity">
+    <VideoView
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/video"
+        android:layout_width="360dp"
+        android:layout_height="200dp"/>
 </LinearLayout>

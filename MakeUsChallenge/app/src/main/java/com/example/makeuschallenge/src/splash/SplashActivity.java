@@ -14,6 +14,7 @@ import com.example.makeuschallenge.R;
 import com.example.makeuschallenge.src.login.LoginActivity;
 import com.example.makeuschallenge.src.main.MainActivity;
 import com.example.makeuschallenge.src.main.chatting.ChattingActivity;
+import com.example.makeuschallenge.src.video.VideoActivity;
 
 public class SplashActivity extends AppCompatActivity {
 
@@ -41,7 +42,8 @@ public class SplashActivity extends AppCompatActivity {
     private class SplashHandler implements Runnable{
         @Override
         public void run() {
-            startActivity(new Intent(getApplication(), ChattingActivity.class));
+            //TODO 원래 LoginActivity,
+            startActivity(new Intent(getApplication(), VideoActivity.class));
             SplashActivity.this.finish(); //로딩페이지를 액티비티 스택에서 제거거
         }
     }

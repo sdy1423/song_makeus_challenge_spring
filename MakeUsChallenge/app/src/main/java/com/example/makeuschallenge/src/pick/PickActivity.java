@@ -1,4 +1,4 @@
-package com.example.makeuschallenge.src.main.looktext;
+package com.example.makeuschallenge.src.pick;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -6,14 +6,11 @@ import android.os.Bundle;
 
 import com.example.makeuschallenge.R;
 
-public class LookTextActivity extends AppCompatActivity {
+public class PickActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_look_text);
-
-
-
+        setContentView(R.layout.activity_pick);
     }
 }

@@ -4,16 +4,15 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/charcoal_grey"
     android:orientation="vertical"
-    android:background="#3a3f45"
-    tools:context=".src.login.select.SelectActivity">
-
-
+    tools:context=".src.complete.CompleteActivity">
 
     <ImageView
-        android:id="@+id/pick"
-        android:src="@drawable/pick"
+        android:id="@+id/complete"
+        android:src="@drawable/login_complete"
         android:layout_width="match_parent"
         android:layout_height="match_parent"/>
+
 
 </LinearLayout>
