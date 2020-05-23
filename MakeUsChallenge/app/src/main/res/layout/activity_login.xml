@@ -1,9 +1,95 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/charcoal_grey"
     tools:context=".src.login.LoginActivity">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <ImageView
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="82.6dp"
+        android:src="@drawable/ic_tutoroadlogo"
+        android:id="@+id/login_iv_logo"
+        android:layout_width="185.3dp"
+        android:layout_height="179.7dp"/>
+
+    <TextView
+        android:text="아이디"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="45.7dp"
+        android:layout_marginTop="41.7dp"
+        android:lineSpacingExtra="8.3sp"
+        android:textColor="#ffffff"
+        android:textSize="17.3sp"
+         />
+
+    <EditText
+        android:layout_marginTop="8dp"
+        android:layout_marginLeft="42dp"
+        android:layout_marginRight="42dp"
+        android:alpha="0.63"
+        android:paddingLeft="23dp"
+        android:textColorHint="#ffffff"
+        android:background="@drawable/login_edt_border"
+        android:hint="@string/check_your_id"
+        android:layout_width="match_parent"
+        android:layout_height="40.3dp"
+        android:textSize="14sp"
+        android:textColor="#ffffff"
+        android:lineSpacingExtra="6.7sp"
+        />
+    <TextView
+        android:layout_marginLeft="45.7dp"
+        android:layout_marginTop="16dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="17.3sp"
+        android:textColor="#ffffff"
+        android:lineSpacingExtra="8.3sp"
+        android:text="비밀번호"
+        />
+    <EditText
+        android:layout_marginTop="8dp"
+        android:layout_marginLeft="42dp"
+        android:layout_marginRight="42dp"
+        android:alpha="0.63"
+        android:paddingLeft="23dp"
+        android:textColorHint="#ffffff"
+        android:background="@drawable/login_edt_border"
+        android:hint="@string/password"
+        android:layout_width="match_parent"
+        android:layout_height="40.3dp"
+        android:textSize="14sp"
+        android:textColor="#ffffff"
+        android:lineSpacingExtra="6.7sp"
+        />
+
+    <TextView
+        android:layout_marginTop="40dp"
+        android:background="@drawable/ic_169"
+        android:layout_width="234dp"
+        android:layout_height="47dp"
+        android:textSize="17.3sp"
+        android:textColor="#303140"
+        android:letterSpacing="0.1"
+        android:lineSpacingExtra="8.3sp"
+        android:text="로그인"
+        android:layout_gravity="center"
+        android:gravity="center"
+        />
+    <TextView
+        android:layout_marginLeft="70.3dp"
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="14sp"
+        android:textColor="#ffffff"
+        android:lineSpacingExtra="6.7sp"
+        android:text="회원가입으로  튜터로드를 시작하세요!"
+        />
+
+</LinearLayout>
